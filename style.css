@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border-color: black;
+    background-color: #1f2937;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-around;
+}
+.headerContainer{
+    width: 900px;
+
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+
+    flex-wrap: wrap;
+    flex: 1;
+}
+.logo{
+    display: flex;
+    margin-right: auto;
+}
+.logo > img{
+    width: 24px;
+    height: 24px;
+    margin-left: 50px;
+}
+.contact{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 20px;
+}
+.FAQ{
+    margin: 0 20px;
+}
+.about{
+    margin-left: auto;
+}
