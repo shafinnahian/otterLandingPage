@@ -166,3 +166,31 @@ header{
     text-align: center;
     color: #1f2937;
 }
+
+/* Section 3 starts from here */
+.sectionThree{
+    height: 210px;
+    background-color: rgba(140, 173, 222, .90);
+}
+.quoteContainer{
+    padding: 60px;
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+.quoteAnony{
+    color: #1f2937;
+
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+}
