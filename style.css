@@ -52,17 +52,24 @@ header{
 /* Section 1 CSS Starts here */
 
 .sectionOne{
-    background-color: blue;
+    background-color: rgba(31, 41, 55, .98);
 
     display: flex;
     justify-content: flex-start;
+
+    /* flex-wrap: wrap; */
 }
 .awesomeContainer{
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    margin-left: 15px;
 
     padding: 100px 0;
 
@@ -75,4 +82,23 @@ header{
 .awesomeDescription{
     font-size: 18px;
     color: #E5E7EB;
+}
+.awesomeButton > button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+}
+
+.awesomeIMGContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+
+    padding: 100px 0;
+}
+.awesomeIMGContainer > img{
+    width: 400px;
+    height: 300px;
+
+    border-radius: 5px;
 }
