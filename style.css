@@ -3,13 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header CSS starts here */
+
 header{
-    border-color: black;
+    /* border-color: black; */
     background-color: #1f2937;
     padding: 20px 0;
 
     display: flex;
     justify-content: space-around;
+
+    flex-wrap: wrap;
+    flex: 1;
 }
 .headerContainer{
     width: 900px;
@@ -41,4 +47,32 @@ header{
 }
 .about{
     margin-left: auto;
+}
+
+/* Section 1 CSS Starts here */
+
+.sectionOne{
+    background-color: blue;
+
+    display: flex;
+    justify-content: flex-start;
+}
+.awesomeContainer{
+    background-color: #1f2937;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 100px 0;
+
+    color: #f9faf8;
+}
+.awesomeWebsite{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.awesomeDescription{
+    font-size: 18px;
+    color: #E5E7EB;
 }
