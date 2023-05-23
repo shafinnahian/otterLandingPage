@@ -267,11 +267,16 @@ footer{
 
 /* Socials starts here */
 .socials{
-    background-color: #E5E7EB;  
+    /* background-color: #E5E7EB;   */
 
     margin:5px 0 0 0;
     
     display: flex;
     justify-content: center;
     flex-wrap: 1;
+}
+.socialsContainer{
+    padding: 5px;
+    border-radius: 54% 46% 67% 33% / 44% 51% 49% 56% ;
+    background-color: #E5E7EB;
 }
