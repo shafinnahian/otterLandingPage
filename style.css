@@ -205,13 +205,46 @@ footer{
     margin: 50px 50px;
     background-color: #3882F6;
     padding: 40px;
+    border-radius: 5px;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
 
     flex-wrap: wrap;
     flex:1;
 }
 .footContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footerIntro{
+    font-size: 15px;
+    font-weight: bold;
+}
+.footerOutro{
+    font-size: 10px;
+}
+.footerButton > button{
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
+    padding: 4px 9px;
+    outline: none;
+    color: #E5E7EB;
+}
+
+.btn{
+    text-decoration: none;
+}
+
+/* Socials starts here */
+.socials{
+    background-color: #E5E7EB;  
+
+    margin:5px 0 0 0;
     
+    display: flex;
+    justify-content: center;
+    flex-wrap: 1;
 }
