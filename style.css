@@ -6,7 +6,7 @@
 
 /* header CSS starts here */
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#E5E7EB
 }
 header{
@@ -95,6 +95,10 @@ header{
     padding: 10px;
 }
 
+button :hover{
+    color: bisque;
+}
+
 .awesomeIMGContainer{
     display: flex;
     justify-content: space-between;
@@ -170,7 +174,7 @@ header{
 /* Section 3 starts from here */
 .sectionThree{
     height: 210px;
-    background-color: rgba(140, 173, 222, .90);
+    background-color: #E5E7EB;  
 }
 .quoteContainer{
     padding: 60px;
@@ -193,4 +197,21 @@ header{
     display: flex;
     align-self: flex-end;
     font-weight: bold;
+}
+
+/* Footer starts here! */
+
+footer{
+    margin: 50px 50px;
+    background-color: #3882F6;
+    padding: 40px;
+
+    display: flex;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+    flex:1;
+}
+.footContainer{
+    
 }
