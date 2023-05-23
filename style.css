@@ -109,13 +109,16 @@ button :hover{
     justify-content: space-between;
     margin-right: 15px;
 
+    
+
     padding: 100px 0;
 }
 .awesomeIMGContainer > img{
     width: 400px;
     height: 300px;
 
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-radius: 5rem 2rem 3rem 4rem;
 }
 
 /* section 2 starts here */
@@ -124,11 +127,14 @@ button :hover{
 .sectionTwo{
     background-color: white;
 
-    height: 330px;
+    height: 370px;
 
     display: flex;
+    flex-direction: column;
+    align-content: center;
 
     flex-wrap: wrap;
+    flex: 1;
 }
 .habitsIntro{
     margin: 25px 0;
@@ -143,31 +149,37 @@ button :hover{
 .habits{
     width: 900px;
     /* margin-top: -50px; */
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex: 1;
 
     align-items: center;
 }
 .flirty > img{
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-radius: 30% 70% 70% 30% / 34% 30% 70% 66% ;
+
     border: 4px solid #3882F6;
     margin-bottom: 7px;
 }
 .nap > img{
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-radius: 54% 46% 52% 48% / 53% 31% 69% 47% ;
     border: 4px solid #3882F6;
     margin-bottom: 7px;
 }
 .angyy  > img{
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-radius: 30% 70% 39% 61% / 42% 27% 73% 58% ;
     border: 4px solid #3882F6;
     margin-bottom: 7px;
 }
 .cuddle  > img{
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    border-radius: 41% 59% 38% 62% / 41% 50% 50% 59% ;
     border: 4px solid #3882F6;
     margin-bottom: 7px;
 }
@@ -187,7 +199,7 @@ button :hover{
 
     flex-direction: column;
     flex-wrap: wrap;
-    /* text-align: center; */
+    text-align: center;
 }
 .quote{
     color: #1f2937;
@@ -200,17 +212,17 @@ button :hover{
     color: #1f2937;
 
     display: flex;
-    align-self: flex-end;
+    align-self: center;
     font-weight: bold;
 }
 
 /* Footer starts here! */
 
 footer{
-    margin: 50px 50px;
+    margin: 50px 20px;
     background-color: #3882F6;
-    padding: 40px;
-    border-radius: 5px;
+    padding: 40px 30px;
+    border-radius: 15% 85% 22% 78% / 62% 45% 55% 38% ;
 
     display: flex;
     justify-content: space-evenly;
